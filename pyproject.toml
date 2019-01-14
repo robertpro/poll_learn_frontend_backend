@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "poll_learn_frontend_backend"
+version = "0.1.0"
+description = "Learning new things :), BTW this is the backend project"
+
+license = "MIT"
+
+authors = [
+    "José Roberto Meza cabrera <robertpro01@gmail.com>"
+]
+
+readme = 'README.md'  # Markdown files are supported
+
+repository = "https://github.com/robertpro/poll_learn_frontend_backend"
+homepage = "https://github.com/robertpro/poll_learn_frontend_backend"
+
+keywords = ['learning']
+
+[tool.poetry.dependencies]
+python = "^3.7"  # Compatible python versions must be declared here
+django = "^2.1"
+psycopg2 = "^2.7.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.1.0"
+pytest-cov = "^2.6.1"
+ipython = "^7.2.0"
