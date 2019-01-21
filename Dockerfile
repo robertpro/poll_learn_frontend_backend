@@ -4,7 +4,6 @@ MAINTAINER José Roberto Meza cabrera <robertpro01@gmail.com>
 
 # copy pyproject file
 COPY pyproject.toml .
-COPY poetry.lock .
 
 RUN apk --no-cache add build-base postgresql-dev
 
